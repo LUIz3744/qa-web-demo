@@ -4,7 +4,7 @@ Demonstração independente realizada em **09/10/2026** no aplicativo público [
 
 ## Escopo e ambiente
 
-Interface desktop observada no navegador integrado do Codex. Foram verificados seis cenários de autenticação, catálogo e carrinho, usando a conta pública de demonstração informada pelo próprio aplicativo. Não houve compra finalizada, pagamento ou uso de dados pessoais reais.
+Interface desktop observada em navegador web. Foram verificados seis cenários de autenticação, catálogo e carrinho, usando a conta pública de demonstração informada pelo próprio aplicativo. Não houve compra finalizada, pagamento ou uso de dados pessoais reais.
 
 ## Resultados
 
@@ -23,8 +23,6 @@ Cinco capturas de tela foram preservadas no registro local da execução: login 
 
 Nenhuma falha foi encontrada nesses seis cenários. Isso não prova ausência de bugs no aplicativo. Não foram testados persistência de sessão após logout, dispositivos móveis, segurança, acessibilidade completa ou integração Azure DevOps.
 
-Um relatório com falhas deve registrar passos de reprodução, resultado esperado e observado e evidência. Esta amostra não inventa defeitos para demonstrar esse formato.
-
 ## Aplicação em um serviço
 
-Um ciclo contratado deve ter ambiente autorizado, fluxos prioritários e critérios de aceite definidos antes do início. Esta publicação não constitui proposta vinculante, certificação de qualidade, promessa de cobertura completa ou oferta de teste sobre sistemas sem autorização.
+Um ciclo contratado começa pela definição dos fluxos prioritários, do ambiente autorizado e dos critérios de aceite. A entrega documenta o que foi executado, os resultados e as limitações de cobertura.
